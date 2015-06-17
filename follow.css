@@ -1,0 +1,33 @@
+#background
+{
+    position:           absolute;
+    z-index:            -999;
+    width:              90vw;
+    height:             90vh;
+}
+
+#drawing
+{
+    width:              100%;
+    height:             100%;
+    background-color:   white;
+}
+
+#foreground
+{
+    position:           absolute;
+    z-index:            999;
+    width:              85vw;
+    height:             80vh;
+    background-color:   transparent;
+}
+
+#contents
+{
+    color:              white;
+}
+
+.follow-buttons {
+    position: relative;
+    bottom: 0;
+}
